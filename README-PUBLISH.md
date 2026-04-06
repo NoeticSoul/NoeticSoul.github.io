@@ -1,12 +1,13 @@
-Damien Clark Portfolio — GitHub Pages Ready
+# Damien Clark Portfolio — Premium GitHub Pages Version
 
-Upload every file in this folder to the ROOT of your GitHub repository.
-Do not place them inside another folder.
+## Upload instructions
+Upload all files in this folder directly to the root of your `NoeticSoul.github.io` repository.
 
-Required files in the repo root:
+Files that should be in the repo root:
 - index.html
 - about.html
 - experience.html
+- projects.html
 - resume.html
 - contact.html
 - styles.css
@@ -15,5 +16,22 @@ Required files in the repo root:
 - Damien-Clark-Resume.pdf
 - .nojekyll
 
-If the page looks unstyled, the most common cause is that styles.css is not in the repo root.
-If the headshot is broken, headshot.png is missing or in the wrong folder.
+## Publish
+In GitHub:
+1. Go to **Settings**
+2. Open **Pages**
+3. Set source to **Deploy from a branch**
+4. Choose your main branch and `/(root)`
+5. Save
+
+## Updating
+Whenever you want to update the site:
+1. Edit the local files
+2. Re-upload changed files to the repo
+3. Refresh the public site after GitHub Pages redeploys
+
+## Optional next upgrades
+- Add a custom domain
+- Add certification badges or verification links
+- Add project screenshots
+- Add a GitHub profile link

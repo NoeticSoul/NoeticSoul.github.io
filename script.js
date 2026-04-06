@@ -1,17 +1,12 @@
+
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
-const yearEl = document.querySelector('[data-year]');
+const yearEls = document.querySelectorAll('[data-year]');
 
 if (navToggle && navLinks) {
-  navToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('open');
-  });
-
-  navLinks.querySelectorAll('a').forEach((link) => {
+  navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => navLinks.classList.remove('open'));
   });
 }
-
-if (yearEl) {
-  yearEl.textContent = new Date().getFullYear();
-}
+yearEls.forEach(el => el.textContent = new Date().getFullYear());
