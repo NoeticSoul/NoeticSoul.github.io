@@ -1,31 +1,19 @@
-# Damien Clark Portfolio Site
+Damien Clark Portfolio — GitHub Pages Ready
 
-## Files
-- `index.html` — home page
-- `about.html` — about/background page
-- `experience.html` — experience and strengths
-- `resume.html` — embedded resume page
-- `contact.html` — public contact page
-- `assets/` — shared CSS, JS, headshot, and resume PDF
-- `.nojekyll` — ensures GitHub Pages serves static files directly
+Upload every file in this folder to the ROOT of your GitHub repository.
+Do not place them inside another folder.
 
-## Fastest publishing options
+Required files in the repo root:
+- index.html
+- about.html
+- experience.html
+- resume.html
+- contact.html
+- styles.css
+- script.js
+- headshot.png
+- Damien-Clark-Resume.pdf
+- .nojekyll
 
-### Option 1: GitHub Pages
-1. Create a GitHub repository.
-2. Upload every file and folder from this package.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select your main branch and the **/(root)** folder.
-6. Save. GitHub will publish the site and give you a URL.
-
-### Option 2: Netlify
-1. Go to Netlify.
-2. Drag the full folder into Netlify Drop, or connect a GitHub repo.
-3. Netlify will publish the site automatically.
-
-## Good next upgrades
-- Add certification badge links
-- Add a GitHub profile when ready
-- Add a custom domain later
-- Add project pages as your portfolio grows
+If the page looks unstyled, the most common cause is that styles.css is not in the repo root.
+If the headshot is broken, headshot.png is missing or in the wrong folder.
